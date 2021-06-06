@@ -1,6 +1,6 @@
 # Marat (Yen-chih Chen)
 
-_5-year experience of optimizing system performance, designing and developing process automation for delivery and data analysis. Extensive experience in AWS services including ECS/EKS, Redshift, EMR, and etc. with 6 AWS certificates including Professional Solution Architect and Network speciality. 7-year experience of enterprise customer support, issues diagnosis, and information visualization_
+_5-year experience of optimizing system performance, designing and developing process automation for delivery and data analysis. Extensive experience in AWS services including ECS/EKS, Redshift, EMR, and etc with 6 AWS certificates listed below. 7-year experience of enterprise customer support, issues diagnosis, and information visualization_
 
 ## Skills
 ### General
@@ -19,18 +19,18 @@ Prometheus, Grafana, ELK, Nagions, Munin
 ## Work Experience
 **SRE (Site Reliability Engineer) and DevOps Engineer** @ [Data Republic](https://www.datarepublic.com/) ( Sep. 2019 - Present ) <br>
 * Cloud operation and management
-  * Migration of services from kops cluster to EKS, including overall upgrade of infrastructer, terraform template development, CD pipeline update and testing. Resulting in SLA improvement to over 95%
-  * Migration of self-managed Atlassian server to Atlassian Cloud. Having 3rd-party plugin blocks captured by a Go script
+  * Migrated services from kops cluster to EKS, including overall upgrade of infrastructer, terraform template development, CD pipeline update and testing. Resulting in SLA improvement to over 95%
+  * Migrated self-managed Atlassian server to Atlassian Cloud. Having 3rd-party plugin blocks captured by a Go script
   * Helm2 to Helm3 migration and Kubernetese version update for over 50 services
 
 * Observability
   * Developed user-behavior automation testing with Puppeteer for measuring SLA in a black-box approach. The test was also adapted to be run by AWS canary
   * Enabled development teams to define metric and alarm setup with Prometheus operator CRD
-  * Build ELK stack to consume both application and infrastructure logs for analysis and dashboards
+  * Built ELK stack to consume both application and infrastructure logs for analysis and dashboards
 
 * Security
-  * Build patch pipelines for AWS EC2 instances and AMI with AWS System Manager
-  * Integrate log processing system with a vendor for [SOC2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) compliance
+  * Built patch pipelines for AWS EC2 instances and AMI with AWS System Manager
+  * Integrated log processing system with a vendor for [SOC2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) compliance
 
 * Agility
   * Refactored legacy CI/CD Makefile scripts to be run on Github actions
@@ -38,7 +38,7 @@ Prometheus, Grafana, ELK, Nagions, Munin
 
 **Senior DevOps Engineer** @ [ELMO Software](https://elmosoftware.com.au/) ( Jan. 2018 - Sep. 2019 ) <br>
 * CI/CD and Operation
-  * Streamlining the development process, I built internal serverless tools which manages AWS resources, data obfuscation, streaming Cloudwatch logs and developedChef recipes, Apache/Nginx configuration, Dockerfiles, and Makefiles which simplified CI/CD configuration. 
+  * Streamlined the development process, I built internal serverless tools which manages AWS resources, data obfuscation, streaming Cloudwatch logs and developedChef recipes, Apache/Nginx configuration, Dockerfiles, and Makefiles which simplified CI/CD configuration. 
   * Leveraged network and log analysis tools to investigate production and development issues
   * Operation tasks including integration setup, data summarisation for business decisions, and Website maintenance.
 
