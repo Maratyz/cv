@@ -1,6 +1,6 @@
 # Marat (Yen-chih Chen)
 
-_5-year experience of optimizing system performance, designing and developing process automation for delivery and data analysis. Extensive experience in AWS services including ECS/EKS, Redshift, EMR, and etc with 6 AWS certificates listed below. 7-year experience of enterprise customer support, issues diagnosis, and information visualization_
+_5-year experience of optimizing system performance from Linux cpu binding to Database indexing, designing and developing process automation for delivery and for data analysis. Extensive experience in AWS services including ECS/EKS, Redshift, EMR, and etc. with 6 AWS certificates listed below. 7-year experience of enterprise customer support, issues diagnosis, and information visualization_
 
 ## Skills
 ### General
@@ -73,10 +73,10 @@ The legacy kubernetes clusters were having low SLA and a few long down-time inci
 The Elastic-Kibana stack as SIEM system had throughput issues when a platform component was executing massive computation which emitted excessive logs. It was desired to improve the reliability. I had analysed the performance bottleneck and evaluated the replacement of components by managed services. I managed to swap a legacy log parser with Logstash, which later enabled integration with SOC operation vendor. I also tuned the performance of ElasticSearch to reduce infrastructure cost. The completed ELK stack provided the same throughput with 40% less cost.
 
 * Chrome Headless for PDF Generation Service @ ELMO <br>
-Phantom.js did not support generating PDF for HTTPS pages. I implemented a single Node.js Lambda function which used Chromeheadless and then leverage ECS which supports larger file. In addition, it also adapts to the environment for supporting local development
+Phantom.js did not support generating PDF for HTTPS pages. I implemented a single Node.js Lambda function which used Chromeheadless and then leverage ECS which supports larger file. In addition, it also adapts to the environment for supporting local development.
 
-* Cronjob Status Monitoring Dashboard @ ELMO <br>
-Serverless application in a poll-based model, provides the latest status of cronjob execution information and history results. Technology stacks include ReactJS (frontend) and Node.js (backend) on the top of AWS Serverless Services including CloudWatch Log, Lambda, DynamoDB, and Athena
+* Slack bot for Operation Automation @ ELMO <br>
+Automated manual task of extracting and obfuscating data from production environment for troubleshooting on Developer's local environment. It is created as a Slack bot that replied inquiry from users, triggered an ETL process, and notified users once completion.
 
 ## Education
 **Master of Engineering (Materials Science and Engineering)** @ The University of New South Wales, NSW, Australia ( Sep. 2008 - Oct. 2010 ) <br>
