@@ -49,7 +49,7 @@ Multi-tenant system for small-medium companies to manager human resources, train
 * System design and implementation: transforming production into cloud-native ones
   * I designed and built infrastructure for over 10 projects including containerisation with ECS, API Gateway, database migration with Redshift, and serverless applications with best practices including scalability, availability, nested stacks, and minimum permission.
 
-**Project ManagementOperation/Optimization** @ [Groundhog Technology](https://www.ghtinc.com/) ( Oct. 2015 - Jul. 2017 ) <br>
+**Project Management/Operation/Optimization** @ [Groundhog Technology](https://www.ghtinc.com/) ( Oct. 2015 - Jul. 2017 ) <br>
 The system processing nationwide radio signal distribution and trajectories of mobile users for business intelligence and mobile network optimisation
 
 * Operation
