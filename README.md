@@ -79,7 +79,7 @@ Phantom.js did not support generating PDF for HTTPS pages. I implemented a singl
 Automated manual task of extracting and obfuscating data from production environment for troubleshooting on Developer's local environment. It is created as a Slack bot that replied inquiry from users, triggered an ETL process, and notified users once completion.
 
 ## Education
-**Master of Engineering (Materials Science and Engineering)** @ The University of New South Wales, NSW, Australia ( Sep. 2008 - Oct. 2010 ) <br>
+**Master of Engineering (Materials Science and Engineering)** @ The University of New South Wales, NSW, Australia ( Sep. 2008 - Dec. 2011 ) <br>
 Thesis: *Computational Fluid Dynamics for Simulating Flows in Furnace*
 
 **Bachelor of Engineering** @ National Cheng Kung University, Tainan, Taiwan ( Sep. 2003 - Jun. 2007 ) <br>
