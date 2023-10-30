@@ -1,6 +1,6 @@
 # Marat (Yen-chih Chen)
 
-_5-year experience of optimizing system performance from Linux cpu binding to Database indexing, designing and developing process automation for delivery and for data analysis. Extensive experience in AWS services including ECS/EKS, Redshift, EMR, and etc. with 6 AWS certificates listed below. 7-year experience of enterprise customer support, issues diagnosis, and information visualization_
+Optimized performance from Linux cpu binding for highly concurrent systems, database indexing on Web application, to big-O optimization on code. Focused on iterating observability for incident response and DevOps implementation for delivery. Leveraged AWS services for container orchestration, networking, and big data analysis.
 
 ## Skills
 ### General
@@ -17,27 +17,40 @@ Github, Jenkins, Atlassian Bamboo and Bitbucket pipeline, GoCD
 Prometheus, Grafana, ELK, Nagions, Munin
 
 ## Work Experience
-**SRE (Site Reliability Engineer) and DevOps Engineer** @ [Data Republic](https://www.datarepublic.com/) ( Sep. 2019 - Present ) <br>
+**System Engineer** @ [Amazon](https://www.amazon.com/) ( Feb. 2022 - present ) <br>
+Keep every Amazon retail website up
+* System development
+  * Reduced the developer-engagement cost by >90% by bulilding critical components in an internal dependency observability system. 
+  * Streamlined engagement process by building a ML-supported system to consolidate anomaly detection and service owner lookup
+* Incident response
+  * Enabled >30% reduction in time to resolve incidents by moderating 100+ drills within a year to familiarize team members with internal tools
+* Resiliency and observability improvement
+  * Extend alarm audit for 2000+ services with the insight on monitoring miss from reviewing every incident
+
+**SRE (Site Reliability Engineer)** @ [IXUP](https://ixup.com/) ( Jul. 2021 - Feb. 2022 ) <br>
+Continue to operate the purchased products from Data Republic
+* Cost reduction by ~20k / month by depreciating services and balancing cloud resources
+* Reduce 1 developer-day on monthly basis with extending a Promethus plugin to build Grafana dashboard for business data export
+
+**SRE and DevOps Engineer** @ [Data Republic](https://www.datarepublic.com/) ( Sep. 2019 - Jul. 2021 ) <br>
 Platform to share and match data securely, and provide sandboxes to analyse data
-* Cloud operation and management: improving SLA to over 95%, upgrading infrastructures, and resolving production incidents
-  * Migrated services from kops cluster to EKS, including overall upgrade of infrastructure, terraform template development, CD pipeline update and testing 
-  * Refactored Helm charts for Helm2 to Helm3 migration 
-  * Upgraded Kubernetes clusters across multiple versions for over 50 services
-  * Contributed in incidents such as disaster recovery, data restoration, and long downtime during midnight
+* Cloud operation and management: SLA improvement and SLA-impacting incidents
+  * Migrated services from legacy kops cluster to AWS EKS by refactoring and extending Terraform templates and Kubernetes definitions for over 50 services, updating and testing CD pipeline, and defining the procedure; SLA improvement from <90% to >95% 
+  * Shortened incident resolution time by working out automation for disaster recovery and data restoration over 100+ EC2 instances
 
 * Observability: automating user experience monitoring and shortening response time toward issue analysis
-  * Developed user-behavior automation testing with Puppeteer for measuring SLA in a black-box approach. The test was also adapted to be run by AWS canary
-  * Instructed development teams to define metric and alarm setup with Prometheus operator CRD
-  * Built ELK stack to consume both application and infrastructure logs for faster analysis in a single place
+  * Bulit user-behavior automation testing with Puppeteer for measuring SLA in a black-box approach.
+  * Reduce development effort from over weeks to less than a day by introducing Prometheus operator CRD to define metric and alarm setup 
+  * Revamp ELK stack to consume both application and infrastructure logs for faster analysis in a single place with better performance and higher SLI
 
 * Security: building patching pipeline, working in SOC compliance, and validating product security
-  * Built patch pipelines for AWS EC2 instances and AMI with AWS System Manager
-  * Integrated log processing system with a vendor for [SOC2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) compliance
-  * Supported validation on product security by intercepting and decrypting SSL traffic with proxy 
+  * Automate security patch with pipelines for AWS EC2 instances and AMI with AWS System Manager
+  * Complied with [SOC2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) by ingesting log to a 3rd-party system
+  * Demonstarted product security validation by intercepting and decrypting SSL traffic with a man-in-the-middle proxy 
 
-* Agility: migrating pipelines and improving their throughput by 30%
-  * Refactored legacy CI/CD Makefile scripts to be run on Github actions, shortening bulid and testing time by caching
-  * Provisioned and managed the auto-scaling fleet of self-hosted Github action runners for build and deployment to any internal environment
+* Agility: migrating pipelines to scalable solution and reducing the lead time by 30%
+  * Refactored legacy CI/CD Makefile scripts to execute on Github actions, shortening bulid and testing time with Docker image caching
+  * Minimized monetary cost by auto-scaling the self-hosted Github action runners based on demand
 
 **Senior DevOps Engineer** @ [ELMO Software](https://elmosoftware.com.au/) ( Jan. 2018 - Sep. 2019 ) <br>
 Multi-tenant system for small-medium companies to manager human resources, training, payroll, and performance management
@@ -77,13 +90,6 @@ Phantom.js did not support generating PDF for HTTPS pages. I implemented a singl
 
 * Slack bot for Operation Automation @ ELMO <br>
 Automated manual task of extracting and obfuscating data from production environment for troubleshooting on Developer's local environment. It is created as a Slack bot that replied inquiry from users, triggered an ETL process, and notified users once completion.
-
-## Education
-**Master of Engineering (Materials Science and Engineering)** @ The University of New South Wales, NSW, Australia ( Sep. 2008 - Dec. 2011 ) <br>
-Thesis: *Computational Fluid Dynamics for Simulating Flows in Furnace*
-
-**Bachelor of Engineering** @ National Cheng Kung University, Tainan, Taiwan ( Sep. 2003 - Jun. 2007 ) <br>
-GPA: 3.8 of 4, Rank: 3rd of 49
 
 ## Certificates
 ### Amazon Web Service (AWS) 
